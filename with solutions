@@ -1,0 +1,11 @@
+# Write a Python function that takes a sequence of numbers and determines
+# whether all the numbers are different from each other.
+
+
+def func():
+    list = [1, 2, 3, 4, 5, 5, 6, 6, 7, 7, 8]
+    new_data = set(list)
+    print(new_data)
+
+
+func()
